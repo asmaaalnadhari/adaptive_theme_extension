@@ -1,5 +1,5 @@
+import 'package:adaptive_theme_extension/theme/text_roles.dart';
 import 'package:flutter/material.dart';
-import 'package:theme_extension_example/theme/text_roles.dart';
 import 'app_colors.dart';
 import 'typography_tokens.dart';
 import 'font_scaling.dart';
