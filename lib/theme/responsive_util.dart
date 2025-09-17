@@ -7,7 +7,7 @@ class ResponsiveUtil {
   static double scaleFactor(BuildContext context) {
     final bucket = getScreenSize(context);
     // Logger.log('Screen Type is : ${bucket.threshold}');
-    final deviceW = MediaQuery.of(context).size.width;
+    final deviceW = MediaQuery.sizeOf(context).width;
     final designW = bucket.threshold;
     return deviceW / designW;
   }
